@@ -226,8 +226,12 @@ body {
 }
 
 /*_______Section samples________ */
-.samples-subtitle {
+
+.samples-link {
     text-decoration: none;
+}
+
+.samples-subtitle {
     font-family: inherit;
     font-weight: 500;
     font-size: 20px;
@@ -237,14 +241,12 @@ body {
 }
 
 .samples-filter {
-    text-decoration: none;
     font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    order: 0;
 }
 
 
