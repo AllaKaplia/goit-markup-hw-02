@@ -1,4 +1,7 @@
-
+/*Колір основного шрифту #2E2F42
+Колір основного фону  #ffffff
+додатковий фон та літери #2E2F42
+    */
 
 :root {
     --base-color-text: #2E2F42;
@@ -19,7 +22,6 @@ body {
 
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -29,9 +31,12 @@ body {
     padding: 0px;
 }
 
+/*.logo:hover {
+
+}*/
+
 .logo-web {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -55,7 +60,7 @@ body {
     color: #2E2F42;
 }
 
-.contacts {
+.contact {
     text-decoration: none;
     font-family: inherit;
     font-weight: 400;
@@ -66,10 +71,104 @@ body {
     color: #434455;
 }
 
-/*    font-family: inherit;
+/* Hero section   */
+.hero {
+    background-color: var(--base-color-text);
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/* Benefits section   */
+.benefits-heading {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.benefit-subtitle, .resume-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--base-color-text);
+}
+
+.benefit-details, .resume-specialty {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Examples section   */
+.examples-title, .resumes-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--base-color-text);
+}
+
+/*resumes section*/
+
+/*footer section*/
+.footer {
+    background-color: var(--base-color-text);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.67;
+    display: flex;
+    letter-spacing: 0.03em;
     text-decoration: none;
-    color: #434455;*/
+
+    color: #F4F4FD;
+}
+
+.footer-logo-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.67;
+    display: flex;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4D5AE5;
+}
+
+
+
+
+/* */
