@@ -1,23 +1,25 @@
 /*Колір основного шрифту #2E2F42
 Колір основного фону  #ffffff
 додатковий фон та літери #2E2F42
+
     */
 
 :root {
     --base-color-text: #2E2F42;
+    --maine-color-background: #ffffff;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif,'Raleway', sans-serif;
     color: var(--base-color-text);
-    background-color: #ffffff;
+    background-color: var(--maine-color-background);
     }
 
 /*    font-family: 'Raleway', sans-serif;*/
 
-/*Header*/
+/*_________Header____________*/
 .page-header {
-    background: #FFFFFF;
+    background: var(--maine-color-background);
 }
 
 .logo {
@@ -31,10 +33,6 @@ body {
     padding: 0px;
 }
 
-/*.logo:hover {
-
-}*/
-
 .logo-web {
     font-family: 'Raleway';
     font-weight: 800;
@@ -45,6 +43,10 @@ body {
     color: #4D5AE5;
     padding: 0px;
 }
+
+/*.logo:hover {
+
+}*/
 
 .list {
     list-style: none;
@@ -60,6 +62,10 @@ body {
     color: #2E2F42;
 }
 
+.site-nav:focus, .site-nav:hover {
+    color: #4D5AE5;
+}
+
 .contact {
     text-decoration: none;
     font-family: inherit;
@@ -71,7 +77,11 @@ body {
     color: #434455;
 }
 
-/* Hero section   */
+.contact:hover {
+    color: #4D5AE5;
+}
+
+/*__________Hero section_________*/
 .hero {
     background-color: var(--base-color-text);
 }
@@ -82,7 +92,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--maine-color-background);
 }
 
 .hero-button {
@@ -91,11 +101,24 @@ body {
     line-height: 1.9;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
-    color: #FFFFFF;
+    color: var(--maine-color-background);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
-/* Benefits section   */
-.benefits-heading {
+.hero-button:hover {
+    background-color: #4D5AE5;
+}
+
+.hero-button:active {
+    background-color:#404BBF;
+}
+
+/* ____________Benefits section__________*/
+.benefits-heading, .row-title, 
+.samples-title {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -125,7 +148,7 @@ body {
     color: #434455;
 }
 
-/* Examples section   */
+/*____________Examples section__________*/
 .examples-title, .resumes-title {
     font-weight: 500;
     font-size: 36px;
@@ -136,16 +159,16 @@ body {
     color: var(--base-color-text);
 }
 
-/*resumes section*/
+/*_________Resumes section___________*/
 .resumes {
     background-color: #F4F4FD;
 }
 
 .resumes-item {
-    background-color: #FFFFFF;
+    background-color: var(--maine-color-background);
 }
 
-/*footer section*/
+/*Footer section*/
 .footer {
     background-color: var(--base-color-text);
 }
@@ -183,6 +206,28 @@ body {
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
+
+/* Portfolio page: Section row */
+.row-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.row-button:hover {
+    background-color: #4D5AE5;
+    color:var(--maine-color-background)
+}
+
+
+
+
 
 
 /* */
