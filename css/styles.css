@@ -13,11 +13,10 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--base-color-text);
     background-color: var(--maine-color-background);
-    }
-
-/*    font-family: 'Raleway', sans-serif;*/
+}
 
 /*_________Header____________*/
+
 .page-header {
     background: var(--maine-color-background);
 }
@@ -43,10 +42,6 @@ body {
     color: #4D5AE5;
     padding: 0px;
 }
-
-/*.logo:hover {
-
-}*/
 
 .list {
     list-style: none;
@@ -81,6 +76,7 @@ body {
 
 
 /*__________Hero section_________*/
+
 .hero {
     background-color: var(--base-color-text);
 }
@@ -116,6 +112,7 @@ body {
 }
 
 /* ____________Benefits section__________*/
+
 .benefits-heading, .row-title, 
 .samples-title {
     position: absolute;
@@ -147,6 +144,7 @@ body {
 }
 
 /*____________Examples section__________*/
+
 .examples-title, .resumes-title {
     font-weight: 500;
     font-size: 36px;
@@ -158,6 +156,7 @@ body {
 }
 
 /*_________Resumes section___________*/
+
 .resumes {
     background-color: #F4F4FD;
 }
@@ -167,6 +166,7 @@ body {
 }
 
 /*Footer section*/
+
 .footer {
     background-color: var(--base-color-text);
 }
@@ -180,7 +180,6 @@ body {
     display: flex;
     letter-spacing: 0.03em;
     text-decoration: none;
-
     color: #F4F4FD;
 }
 
@@ -205,6 +204,7 @@ body {
 }
 
 /* Portfolio page: Section row */
+
 .row-button {
     font-weight: 500;
     font-size: 16px;
