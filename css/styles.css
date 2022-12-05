@@ -86,6 +86,7 @@ body {
 }
 
 .hero-button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -108,8 +109,7 @@ body {
 
 /* ____________Benefits section__________*/
 
-.benefits-heading, .examples-title, 
-.samples-title {
+.benefits-heading, .examples-title {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -138,9 +138,9 @@ body {
     color: var(--color-decoration-text);
 }
 
-/*____________Examples section__________*/
+/*____________Illustrations section__________*/
 
-.examples-title, .resumes-title {
+.illustrations-title, .resumes-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
